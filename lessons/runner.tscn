@@ -7,10 +7,13 @@
 radius = 24.083189
 
 [node name="Runner" type="CharacterBody2D"]
+motion_mode = 1
 script = ExtResource("1_h1hi2")
 
 [node name="Skin" type="Sprite2D" parent="."]
+unique_name_in_owner = true
 texture = ExtResource("1_puh4d")
+flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 44)
